@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A3B3ECC-DF92-4B81-8422-1844F340E57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWsGameServer.Server", "src\BasicWsGameServer.Server\BasicWsGameServer.Server.csproj", "{AEFAF1BA-1455-42E5-8432-0B18BEC17233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWsGameServer.Client", "src\BasicWsGameServer.Client\BasicWsGameServer.Client.csproj", "{5718815B-B238-4C09-8A2B-C7B77BB40B22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEFAF1BA-1455-42E5-8432-0B18BEC17233} = {2A3B3ECC-DF92-4B81-8422-1844F340E57D}
+		{5718815B-B238-4C09-8A2B-C7B77BB40B22} = {2A3B3ECC-DF92-4B81-8422-1844F340E57D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFAF1BA-1455-42E5-8432-0B18BEC17233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFAF1BA-1455-42E5-8432-0B18BEC17233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFAF1BA-1455-42E5-8432-0B18BEC17233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFAF1BA-1455-42E5-8432-0B18BEC17233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5718815B-B238-4C09-8A2B-C7B77BB40B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5718815B-B238-4C09-8A2B-C7B77BB40B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5718815B-B238-4C09-8A2B-C7B77BB40B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5718815B-B238-4C09-8A2B-C7B77BB40B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
