@@ -1,6 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Net.WebSockets;
 using System.Text;
+using BasicWsGameServer.Server.Entities;
 using Serilog;
 
 namespace BasicWsGameServer.Server
@@ -12,9 +13,11 @@ namespace BasicWsGameServer.Server
             PlayerId = playerId;
             Socket = socket;
             TaskCompletion = taskCompletion;
+            Player = new Player();
         }
 
         public int PlayerId { get; private set; }
+        public Player Player { get; set; }
 
         public WebSocket Socket { get; private set; }
 
