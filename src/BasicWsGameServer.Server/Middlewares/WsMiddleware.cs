@@ -3,7 +3,7 @@ using System.Net.WebSockets;
 using System.Text;
 using Serilog;
 
-namespace BasicWsGameServer.Server
+namespace BasicWsGameServer.Server.Middlewares
 {
     public class WsMiddleware : IMiddleware
     {

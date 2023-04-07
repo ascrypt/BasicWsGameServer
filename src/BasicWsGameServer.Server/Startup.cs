@@ -1,4 +1,6 @@
-﻿namespace BasicWsGameServer.Server
+﻿using BasicWsGameServer.Server.Middlewares;
+
+namespace BasicWsGameServer.Server
 {
     public class Startup
     {
